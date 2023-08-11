@@ -1,0 +1,31 @@
+/* TODO: modularizar estilos */
+
+ul {
+  list-style: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 0.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.form-container ul {
+  overflow-y: auto;
+  padding: 0;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 200px;
+  max-height: 360px;
+}
